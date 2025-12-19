@@ -1,31 +1,31 @@
 # erc721-ux
 
-## Comment lancer le projet
+## How to run the project
 
-### Prérequis
-- Node.js 18+ installé
-- npm ou yarn
-- MetaMask installé dans votre navigateur
-- Réseau Sepolia configuré dans MetaMask
+### Prerequisites
+- Node.js 18+ installed
+- npm or yarn
+- MetaMask installed in your browser
+- Sepolia network configured in MetaMask
 
-### Installation et lancement
+### Installation and launch
 
-1. **Installer les dépendances du frontend** :
+1. **Install frontend dependencies** :
 ```bash
 cd frontend
 npm install
 ```
 
-2. **Lancer le serveur de développement** :
+2. **Start the development server** :
 ```bash
 npm run dev
 ```
 
-3. **Ouvrir l'application** :
-   - Ouvrez votre navigateur et allez sur [http://localhost:3000](http://localhost:3000)
-   - Assurez-vous que MetaMask est connecté au réseau Sepolia
+3. **Open the application** :
+   - Open your browser and go to [http://localhost:3000](http://localhost:3000)
+   - Make sure MetaMask is connected to the Sepolia network
 
-### Build pour la production
+### Build for production
 
 ```bash
 cd frontend
